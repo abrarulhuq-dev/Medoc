@@ -1,5 +1,5 @@
 
-# <img src='./frontend/public/icon.png' alt='logo' sizes="20"> MEDOC 
+##  <img src='./frontend/public/icon.png' alt='logo' width='70' > MEDOC 
 
 > **Transforming Healthcare, Empowering Every Patient Journey**
 
@@ -13,8 +13,12 @@
 
 | Frontend | Backend | Database | Tools & Others |
 |----------|---------|----------|----------------|
-| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) | ![Express](https://img.shields.io/badge/-Express-000000?logo=express) | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) | ![PostCSS](https://img.shields.io/badge/-PostCSS-DD3A0A?logo=postcss&logoColor=white) |
-| ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white) | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) |  | ![Cloudinary](https://img.shields.io/badge/-Cloudinary-3448C5?logo=cloudinary) ![Razorpay](https://img.shields.io/badge/-Razorpay-528FF0?logo=razorpay) ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white) ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite) |
+| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) | ![Express](https://img.shields.io/badge/-Express-000000?logo=express) | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) | ![PostCSS](https://img.shields.io/badge/-PostCSS-DD3A0A?logo=postcss&logoColor=white) ![npm](https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-5E5C5C?logo=json&logoColor=white) |
+| ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white) | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) |  | ![Cloudinary](https://img.shields.io/badge/-Cloudinary-3448C5?logo=cloudinary) ![Razorpay](https://img.shields.io/badge/-Razorpay-528FF0?logo=razorpay) ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white) ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite)   
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+
+
 
 ---
 
@@ -24,19 +28,14 @@
 - [Quickstart](#quickstart)
 - [Features](#features)
 - [Environment Variables](#environment-variables)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 - [Author](#author)
 
 ---
 
 ## 🧠 Overview
 
-**Medoc** is a full-stack Doctor Appointment Booking Platform built using the MERN stack.  
-It allows patients to search for doctors by specialization, book appointments based on availability, and securely pay using Razorpay.  
-
-Built with scalability and modern design in mind, Medoc aims to make healthcare more accessible and connected.
+**Medoc** is a full-stack Doctor Appointment Booking Platform built using the MERN stack. It allows patients to search for doctors by specialization, book appointments based on availability, and securely pay using Razorpay. Built with scalability and modern design in mind, Medoc aims to make healthcare more accessible and connected.
 
 ---
 
@@ -58,12 +57,14 @@ npm install
 # Setup environment variables (see below)
 
 # Start backend server
-npm run dev
+npm run server
 
 # Start frontend dev server
 npm run dev
-```
 
+# Start admin dev server
+npm run dev
+```
 ---
 
 ## 🚀 Features
@@ -76,7 +77,7 @@ npm run dev
 - ✅ Cloudinary for secure image uploads
 - ✅ Fully responsive UI with Tailwind + React
 - ✅ Modular backend with Express & Mongoose
-
+  
 ---
 
 ## ⚙️ Environment Variables
@@ -100,17 +101,7 @@ VITE_API_URL=http://localhost:5000
 
 ---
 
-## 🖼️ Screenshots
 
-> (📌 Add your actual screenshots in the `screenshots/` folder)
-
-```markdown
-![Home Page](./screenshots/home.png)
-![Doctor Profile](./screenshots/doctor-profile.png)
-![Booking Page](./screenshots/booking.png)
-```
-
----
 
 ## 🤝 Contributing
 
@@ -129,13 +120,6 @@ git push origin feature/awesome-feature
 
 # 5. Submit a pull request 🚀
 ```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
 
 ---
 
