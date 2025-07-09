@@ -57,3 +57,14 @@ npm run dev
 
 # Start frontend
 npm run dev
+---
+## 🔥 Features
+-🔒 Secure user authentication and authorization
+
+-🗓️ Book appointments based on doctor availability
+
+-🧑‍⚕️ Doctor dashboard for managing schedule
+
+-💳 Razorpay integrated payments
+
+-☁️ Image uploads via Cloudinary
