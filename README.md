@@ -1,5 +1,5 @@
 
-# <img src='./frontend/public/icon.png' alt='logo' sizes="200"> MEDOC 
+# <img src='./frontend/public/icon.png' alt='logo' sizes="20"> MEDOC 
 
 > **Transforming Healthcare, Empowering Every Patient Journey**
 
