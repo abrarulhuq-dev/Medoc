@@ -1,108 +1,59 @@
-# Medoc
+# 💊 MEDOC
 
-[Live Demo](https://medoc-booking-platform.vercel.app/)
+> **Transforming Healthcare, Empowering Every Patient Journey**
 
-## Overview
-
-**Medoc** is a comprehensive doctor appointment booking platform designed to connect patients with qualified healthcare professionals. The platform streamlines the process of finding, booking, and managing medical appointments online, making healthcare more accessible and efficient for both patients and doctors.
-
-## Features
-
-- **Doctor Directory:** Search and filter doctors by specialty, experience, and location.
-- **Online Appointment Booking:** Book appointments with doctors directly through the platform.
-- **Doctor Profiles:** Detailed information about each doctor including their specialty, experience, fees, and contact information.
-- **Secure Payments:** Integrated payment gateway using Razorpay for hassle-free transactions.
-- **Admin Panel:** Manage doctors, appointments, and users through an intuitive admin interface.
-- **Responsive Design:** User-friendly interface optimized for both web and mobile devices.
-- **Contact & Support:** Easy access to support and privacy information.
-
-## Technologies Used
-
-- **Frontend:** React, Vite, JavaScript, CSS
-- **Backend:** Node.js, Express
-- **Payments:** Razorpay
-- **Other:** ESLint, Babel, SWC
-
-## Installation
-
-### Prerequisites
-
-- Node.js (v16+ recommended)
-- npm or yarn
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/abrarulhuq-dev/Medoc.git
-cd Medoc
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-npm install
-# or
-yarn install
-
-npm run dev
-# or
-yarn dev
-```
-
-### Backend Setup
-
-```bash
-cd backend
-npm install
-# or
-yarn install
-
-npm start
-# or
-yarn start
-```
-
-### Admin Panel Setup
-
-```bash
-cd admin
-npm install
-npm run dev
-```
-
-> Adjust environment variables and backend URLs as necessary.
-
-## Usage
-
-1. Visit the [homepage](https://medoc-booking-platform.vercel.app/).
-2. Register as a patient or login if you already have an account.
-3. Search for doctors by specialty or name.
-4. View doctor details and book appointments.
-5. Complete payments securely via Razorpay.
-6. Manage your profile and appointments from your dashboard.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a pull request
-
-For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is currently unlicensed.
-
-## Contact
-
-- Email: medoc@gmail.com
-- Phone: +91-XXXXX XXXXX
+![Last Commit](https://img.shields.io/github/last-commit/abrarulhuq-dev/Medoc)
+![Languages](https://img.shields.io/github/languages/count/abrarulhuq-dev/Medoc)
+![JavaScript](https://img.shields.io/badge/javascript-99%25-blue)
 
 ---
 
-© 2024 Medoc - All Rights Reserved.
+## 🧰 Tech Stack
+
+| Frontend | Backend | Database | Tools & Others |
+|----------|---------|----------|----------------|
+| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) | ![Express](https://img.shields.io/badge/-Express-000000?logo=express) | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) | ![PostCSS](https://img.shields.io/badge/-PostCSS-DD3A0A?logo=postcss&logoColor=white) |
+| ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white) | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) |  | ![Cloudinary](https://img.shields.io/badge/-Cloudinary-3448C5?logo=cloudinary) ![Razorpay](https://img.shields.io/badge/-Razorpay-528FF0?logo=razorpay) ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white) |
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Quickstart](#quickstart)
+- [Features](#features)
+- [Environment Variables](#environment-variables)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## 🧠 Overview
+
+**Medoc** is a full-stack Doctor Appointment Booking platform that connects patients with specialized doctors. It allows users to schedule appointments based on doctor availability, view profiles, and make secure payments via Razorpay.
+
+---
+
+## ⚡ Quickstart
+
+```bash
+# Clone the repository
+git clone https://github.com/abrarulhuq-dev/Medoc.git
+cd Medoc
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+
+# Set up environment variables (.env files)
+
+# Start backend
+npm run dev
+
+# Start frontend
+npm run dev
