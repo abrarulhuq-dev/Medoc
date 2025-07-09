@@ -1,5 +1,5 @@
 
-# 💊 MEDOC
+# <img src='./frontend/public/icon.png' alt='logo' width='200'> MEDOC 
 
 > **Transforming Healthcare, Empowering Every Patient Journey**
 
