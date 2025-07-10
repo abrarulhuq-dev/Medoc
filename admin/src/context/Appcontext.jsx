@@ -14,7 +14,7 @@ const AppContextProvider = (props) => {
         const today = new Date()
         const birthdate = new Date(dob)
 
-        let age = today.getFullYear() - birthdate.getFullYear
+        let age = today.getFullYear() - birthdate.getFullYear()
         return age
     }
 

@@ -140,11 +140,13 @@ const Myappointments = () => {
 
 
 
-            <div className='flex flex-col gap-2 justify-end '>
-              {!item.cancel && item.payment && <button className='sm:min-w-48 py-2 border mb-10 text-stone-500 rounded-sm bg-[#d1ebe3]'>paid</button>}
-              {!item.cancel && !item.payment && <button onClick={() => payment(item._id)} className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded-full hover:bg-primary hover:text-white transition-all duration-300'>Pay Online</button>}
-              {!item.cancel && !item.payment && <button onClick={() => cancelappoint(item._id)} className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded-full hover:bg-red-400  hover:text-white transition-all duration-300'>Cancel appointment</button>}
+            <div className='flex flex-col gap-2 justify-end'>
+              {!item.cancel && item.payment && !item.iscompleted && <button className='sm:min-w-48 py-2 border mb-10 text-stone-500 rounded-sm bg-[#d1ebe3]'>paid</button>}
+              {!item.cancel && !item.payment && !item.iscompleted && <button onClick={() => payment(item._id)} className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded-full hover:bg-primary hover:text-white transition-all duration-300'>Pay Online</button>}
+              {!item.cancel && !item.payment && !item.iscompleted && <button onClick={() => cancelappoint(item._id)} className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded-full hover:bg-red-400  hover:text-white transition-all duration-300'>Cancel appointment</button>}
               {item.cancel && <button className='sm:min-w-48 py-2 border border-red-500 text-red-500 mb-10 rounded-sm'>Appointment Cancelled</button>}
+              {!item.cancel && (!item.payment || item.payment) && item.iscompleted && <button className='sm:min-w-48 py-2 border mb-10 text-stone-500 rounded-sm bg-[#d1ebe3]'>Completed</button>}
+
             </div>
 
           </div>
