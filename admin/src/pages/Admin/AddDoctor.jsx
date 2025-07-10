@@ -49,10 +49,10 @@ const AddDoctor = () => {
       formdata.append('address', JSON.stringify({ line1: address1, line2: address2 }))
 
       // console log formdata
-      formdata.forEach((value, key) => {
+      // formdata.forEach((value, key) => {
 
-        console.log(`${key} : ${value}`);
-      })
+      //   console.log(`${key} : ${value}`);
+      // })
 
       // Adding the data to backend by using axios.
       const { data } = await axios.post(backendurl + '/api/admin/add-doctor', formdata, { headers: { aToken } })

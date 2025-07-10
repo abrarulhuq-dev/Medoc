@@ -147,11 +147,11 @@ const Apointment = () => {
   }, [docInfo]);
 
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    console.log(docSlots);
+  //   console.log(docSlots);
 
-  }, [docSlots]);
+  // }, [docSlots]);
 
 
 

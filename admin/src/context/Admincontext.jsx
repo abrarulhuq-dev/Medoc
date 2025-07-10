@@ -24,7 +24,7 @@ const AdminContextProvider = (props) => {
             if (data.success) {
 
                 SetDoctors(data.doctors)
-                console.log(data.doctors)
+                // console.log(data.doctors)
 
 
             } else {
@@ -70,7 +70,7 @@ const AdminContextProvider = (props) => {
             if (data.success) {
 
                 SetAppointments(data.appointment)
-                console.log(data.appointment)
+                // console.log(data.appointment)
 
             } else {
 
@@ -113,7 +113,7 @@ const AdminContextProvider = (props) => {
             const { data } = await axios.get(backendurl + '/api/admin/dashboard', { headers: { aToken } })
             if (data.success) {
                 setdashdata(data.dashdata)
-                console.log(data.dashData);
+                // console.log(data.dashData);
 
             } else {
                 toast.error(data.message)

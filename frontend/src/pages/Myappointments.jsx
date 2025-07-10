@@ -30,7 +30,7 @@ const Myappointments = () => {
 
       if (data.success) {
         setappointments(data.appointments.reverse())
-        console.log(data.appointments)
+        // console.log(data.appointments)
       }
 
     } catch (error) {

@@ -21,7 +21,7 @@ const DoctorContextProvider = (props) => {
 
             if (data.success) {
                 setdocdata(data.docdata) 
-                console.log(data.docdata) 
+                // console.log(data.docdata) 
             }
 
         } catch (error) {
@@ -42,7 +42,7 @@ const DoctorContextProvider = (props) => {
             if (data.success) {
 
                 setappointment(data.appointment)
-                console.log(data.appointment)
+                // console.log(data.appointment)
 
 
             } else {
@@ -89,7 +89,7 @@ const DoctorContextProvider = (props) => {
 
             if (data.success) {
                 setdashData(data.dashData) 
-                console.log(data.dashData) 
+                // console.log(data.dashData) 
             } else {
                 toast.error(data.message) 
             }
