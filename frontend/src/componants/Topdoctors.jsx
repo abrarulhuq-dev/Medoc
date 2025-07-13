@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
+import { toast } from 'react-toastify'
 const Topdoctors = () => {
 
     const navigate=useNavigate()
@@ -12,9 +13,9 @@ const Topdoctors = () => {
         <p className='sm:w-1/3 text-center text-sm'>Simply browse through our extensive list of trusted doctors</p>
         <div className='w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0'>
             {doctors.slice(0,10).map((item,index)=>(
-                <div onClick={()=>{navigate(`/appointment/${item._id}`); scrollTo(0,0)}} className=' border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500' key={index}>
+                <div onClick={()=>{ item.available ? (navigate(`/appointment/${item._id}`) && scroll(0,0) ) : toast.error('Doctor is Unavailable') }} className=' border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500' key={index}>
                     <img className='bg-[#d1ebe3]' src={item.image} alt="" />
-                    <div className='p-4'>
+                    <div className='p-4'>          
                         {item.available ? (
                         <div className='flex items-center gap-2 text-sm text-center text-green-500'>
                             <p className='w-2 h-2 bg-green-500 rounded-full '></p><p>Available</p>
